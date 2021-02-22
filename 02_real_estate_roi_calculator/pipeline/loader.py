@@ -5,9 +5,13 @@ import json
 import os
 
 
-def store_to_file(data, path):
+def store_to_file_as_json(data, path):
     with open(path, 'w') as outfile:
         json.dump(data, outfile)
+
+
+def store_to_file_as_csv(df, path_target):
+    df.to_csv(path_target)
 
 
 def upload_to_aws(local_file, bucket, s3_file):

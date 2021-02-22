@@ -5,6 +5,8 @@ Aim of the project is to crawl over an API and store them in a postgresql databa
 
 ## Setup
 
+You have to fill the `.env.example` with the respective values and remove the .example ending of the file.
+
 In short run `start.sh` for all of the steps below.
 
 Or manually:
