@@ -62,4 +62,4 @@ sh spark_retail_processing.sh
 
 Finally analysts can use the results to display information.
 
-[Department wise total sales](./docs/department_total_sales.png)
+![Department wise total sales](./docs/department_total_sales.png)
