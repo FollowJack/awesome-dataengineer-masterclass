@@ -1,0 +1,5 @@
+venv
+
+data/big_data
+
+src/metastore_db
